@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Petit site vitrine de démonstration pour tester Render.">
-  <title>Nova Studio — Site de test</title>
+  <meta name="description" content="Nova Studio imagine des identités visuelles et crée des sites web modernes pour développer votre présence en ligne.">
+  <title>Nova Studio — Création digitale & web</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
@@ -20,38 +20,73 @@
 
   <main>
     <section class="hero">
-      <p class="eyebrow">CRÉATIVITÉ · DIGITAL · INNOVATION</p>
-      <h1>Donnez vie à vos<br><span>idées digitales.</span></h1>
-      <p class="intro">Un petit site vitrine moderne pour tester votre premier déploiement sur Render.</p>
-      <a class="button" href="#services">Découvrir nos services <span aria-hidden="true">→</span></a>
+      <div class="hero-copy">
+        <p class="eyebrow">CRÉATIVITÉ · DIGITAL · INNOVATION</p>
+        <h1>Faisons rayonner<br>votre <span>marque.</span></h1>
+        <p class="intro">Nous transformons vos idées en expériences digitales claires, élégantes et pensées pour faire grandir votre activité.</p>
+        <a class="button" href="#services">Découvrir nos services <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+        <div class="visual-card">
+          <div class="visual-top"><span></span><span></span><span></span></div>
+          <div class="visual-mark">n<span>.</span></div>
+          <div class="visual-line visual-line-long"></div>
+          <div class="visual-line visual-line-short"></div>
+          <div class="visual-blocks"><span></span><span></span><span></span></div>
+          <div class="visual-caption">Une idée. Une identité. Un impact.</div>
+        </div>
+        <div class="visual-tag"><span>✦</span> Créé pour vous</div>
+      </div>
     </section>
 
     <section class="services" id="services">
-      <p class="eyebrow">CE QUE NOUS FAISONS</p>
-      <h2>Simple. Moderne. Efficace.</h2>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CE QUE NOUS FAISONS</p>
+          <h2>Tout pour votre<br><span>présence digitale.</span></h2>
+        </div>
+        <p class="section-intro">De la première idée à la mise en ligne, nous réunissons les bons savoir-faire pour faire avancer vos projets.</p>
+      </div>
       <div class="cards">
         <article class="card">
-          <div class="icon">✦</div>
+          <div class="icon" aria-hidden="true">✦</div>
           <h3>Design web</h3>
-          <p>Des interfaces propres, agréables et adaptées à tous les écrans.</p>
+          <p>Des interfaces intuitives et élégantes, conçues pour offrir une expérience fluide sur chaque écran.</p>
         </article>
         <article class="card">
-          <div class="icon">⌘</div>
+          <div class="icon" aria-hidden="true">⌘</div>
           <h3>Développement</h3>
-          <p>Des sites rapides construits avec HTML, CSS et JavaScript.</p>
+          <p>Des sites fiables, rapides et accessibles, réalisés avec soin jusque dans les moindres détails.</p>
         </article>
         <article class="card">
-          <div class="icon">↗</div>
+          <div class="icon" aria-hidden="true">↗</div>
           <h3>Présence en ligne</h3>
-          <p>Une base simple pour présenter votre activité sur Internet.</p>
+          <p>Un site vitrine clair qui présente votre activité et inspire confiance à vos futurs clients.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">◈</div>
+          <h3>Identité visuelle</h3>
+          <p>Un univers cohérent et mémorable : logo, couleurs et éléments graphiques à votre image.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">⌕</div>
+          <h3>Référencement SEO</h3>
+          <p>Une structure et des contenus optimisés pour améliorer votre visibilité sur les moteurs de recherche.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">⟳</div>
+          <h3>Maintenance web</h3>
+          <p>Un accompagnement régulier pour garder votre site à jour, sécurisé et performant.</p>
         </article>
       </div>
     </section>
 
     <section class="contact" id="apropos">
       <p class="eyebrow">À PROPOS</p>
-      <h2>Votre présence en ligne commence ici.</h2>
-      <p>Cette page de démonstration est entièrement statique : aucun backend ni base de données n'est nécessaire.</p>
+      <h2>Les bonnes idées méritent<br><span>une belle présence.</span></h2>
+      <p>Nova Studio accompagne les projets qui veulent se démarquer, avec une approche simple, créative et attentive à vos objectifs.</p>
       <button class="button" id="testButton" type="button">Tester JavaScript</button>
       <p id="message" class="message" role="status">JavaScript est prêt à être testé.</p>
     </section>
